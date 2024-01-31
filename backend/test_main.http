@@ -1,0 +1,36 @@
+# Test my FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+GET http://127.0.0.1:8000/get/clients
+Accept: application/json
+
+###
+GET http://127.0.0.1:8000/get/selected
+Accept: application/json
+
+###
+GET http://127.0.0.1:8000/get/targets
+Accept: application/json
+
+###
+GET http://127.0.0.1:8000/get/single_df
+Accept: application/json
+
+###
+GET http://127.0.0.1:8000/regular/params
+Accept: application/json
+
+###
+GET http://127.0.0.1:8000/tuned/params
+Accept: application/json
+
+###
+POST http://127.0.0.1:8000/write/single_df
+Accept: application/json
+
+###
+DELETE http://127.0.0.1:8000/delete/single_df
+Accept: application/json
