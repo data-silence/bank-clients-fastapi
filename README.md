@@ -5,6 +5,7 @@
 # Table of contents
 
 * [About](#about)
+* [Structure](#structure)
 * [License](#license)
 * [Contacts](#contacts)
 
@@ -22,7 +23,7 @@ It is devoted to analytical research of bank users, as well as prediction of the
 You can use the app just visit https://bank-clients-fastapi.streamlit.app/
 
 
-## Project structure
+## Structure
 
 The project consists of three parts:
 1. **Research** (notebooks folder). Here you can find notebooks with EDA about bank customers, and experiments on training predictive models of bank customer behavior.
