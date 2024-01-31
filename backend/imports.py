@@ -27,16 +27,16 @@ from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_sc
 
 path = os.path.dirname(__file__)
 
-with open(path + './fitted_models/ohe.pickle', 'rb') as f:
+with open(path + '/fitted_models/ohe.pickle', 'rb') as f:
     ohe_enc = pickle.load(f)
 
-with open(path + './fitted_models/scaler.pickle', 'rb') as f:
+with open(path + '/fitted_models/scaler.pickle', 'rb') as f:
     scaler = pickle.load(f)
 
-with open(path + './fitted_models/model_regular.pickle', 'rb') as f:
+with open(path + '/fitted_models/model_regular.pickle', 'rb') as f:
     model_regular = pickle.load(f)
 
-with open(path + './fitted_models/model_tuned.pickle', 'rb') as f:
+with open(path + '/fitted_models/model_tuned.pickle', 'rb') as f:
     model_tuned = pickle.load(f)
 
 models_schema = {
