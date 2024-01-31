@@ -4,7 +4,7 @@ Module contains functions to work with API endpoints
 
 from imports import st, pd, json, requests, StringIO, Any
 
-api_url = "http://127.0.0.1:8000/"
+api_url = "https://bank-clients.onrender.com/"
 
 
 @st.cache_data

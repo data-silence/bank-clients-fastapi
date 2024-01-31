@@ -6,7 +6,7 @@ from .imports import pd, json, requests, StringIO, Any
 from .imports import accuracy_score, precision_score, recall_score, f1_score
 from .imports import ohe_enc, scaler, model_regular, model_tuned
 
-api_url = "http://127.0.0.1:8000/"
+api_url = "https://bank-clients.onrender.com/"
 
 
 def get_df_from_handlers_response(handler: str) -> pd.DataFrame:
