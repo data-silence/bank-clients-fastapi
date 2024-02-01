@@ -16,7 +16,7 @@
 
 The project is designed to demonstrate some skills in ML: conducting Exploratory Data Analysis, building predictive machine learning models, formalizing the results of the research in the form of a web service using Streamlit and FastApi frameworks and remote PostgreSQL database.     
 
-It has created as part of the ["Линейные модели и их презентация"](https://stepik.org/course/177215/syllabussyllabus) course offered by [AI Education](https://stepik.org/course/177213) on Stepik education platform.
+It has created as part of the ["Linear models and their presentation"](https://stepik.org/course/177215/syllabus) course offered by [AI Education](https://stepik.org/course/177213) on Stepik education platform.
 
 It is devoted to analytical research of bank users, as well as prediction of their behavior using machine learning methods with visualization of the obtained results in the form of WEB application. 
 
