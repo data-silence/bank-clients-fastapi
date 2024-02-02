@@ -28,7 +28,7 @@ You can use the app just visit https://bank-clients-fastapi.streamlit.app/
 The project consists of three parts:
 1. **Research** (notebooks folder). Here you can find notebooks with EDA about bank customers, and experiments on training predictive models of bank customer behavior.
 2. **Backend** as FastAPI app (backend folder). Here you can find designing endpoints and trained models
-3. **Frantend** as Streamlit app (frontend folder). Here lies the design of the application interface: the function to plot, visualize, and interface interaction with models and user selection
+3. **Frontend** as Streamlit app (frontend folder). Here lies the design of the application interface: the function to plot, visualize, and interface interaction with models and user selection
 
 
 ## License
