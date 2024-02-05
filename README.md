@@ -6,6 +6,7 @@
 
 * [About](#about)
 * [Structure](#structure)
+* [Buildings app](#building-app-on-your-own)
 * [License](#license)
 * [Contacts](#contacts)
 
@@ -30,6 +31,16 @@ The project consists of three parts:
 2. **Backend** as FastAPI app (backend folder). Here you can find designing endpoints and trained models
 3. **Frontend** as Streamlit app (frontend folder). Here lies the design of the application interface: the function to plot, visualize, and interface interaction with models and user selection
 
+
+## Building app on your own
+
+1. Create clients db using [clinic_test.sql](clinic_test.sql) script
+2. Change db connection settings using your new db connections params 
+3. Deploy backend Fast API server with [requirements-backend.txt](requirements-backend.txt): ```pip install -r requirements-backend.txt``` and run it with ```uvicorn backend.main:app --host 0.0.0.0 --port 1000```. Host and port number depends of your host settings, change them if necessary.
+4. Change ```api_url``` in backend\scripts.py and frontend\scripts.py with your new backend url.
+5. Deploy frontend streamlit application using [requirements.txt](requirements.txt) and run ```streamlit run .\frontend\app.py```
+
+_Important_: The described installation is valid when the application is deployed from the root directory of the repository. That is, the backend and frontend folders must be inside the root directory. If you prefer to change the repository structure or install backend and frontend from directories with the same name, you will need to change the relative import paths and application startup options.  
 
 ## License
 This project is licensed under the MIT license. For more information, see the LICENSE file.
